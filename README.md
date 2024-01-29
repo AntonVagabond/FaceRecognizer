@@ -17,4 +17,4 @@
 - `python detector.py --test -f unknown.jpg` - протестировать модель с неизвестным лицом передав _путь к изображению_.
 
 ## 📽️ Пример работы проекта
-![pycharm64_ADMyTwqgwc.gif](..%2F..%2F..%2FUsers%2FAkuev%2FDocuments%2FShareX%2FScreenshots%2F2024-01%2Fpycharm64_ADMyTwqgwc.gif)
+![pycharm64_ADMyTwqgwc.gif](pycharm64_ADMyTwqgwc.gif)
