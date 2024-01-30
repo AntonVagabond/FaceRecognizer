@@ -102,7 +102,7 @@ class FaceRecognizer(Face):
                 input_face_locations, input_face_encodings
         ):
             name = cls.__recognize_face(unknown_encodings, loaded_encodings)
-            name = 'Unknown' if not name else name
+            name = 'Unknown' if name is None else name
             cls.__display_face(draw, bounding_box, name)
 
         # Вручную удаляем объект рисования из текущей области.
